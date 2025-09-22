@@ -14,7 +14,7 @@ Algoritmo PatataCaliente
 		intentos = 5;
 	//01) Entradas de datos
 		Escribir "Bienvenido al juego de la patata caliente";
-		Escribir "Responde la siguiente pregunta: " + pregunta;
+		Escribir "Responde la siguiente pregunta:" ,pregunta, "en menos de" ,intentos, "intentos" ;
 		Mientras correcto = falso y intentos <> 0
 			Escribir "Porfavor introduzca la respuesta: " Sin Saltar;
 			Leer fecha_user;
