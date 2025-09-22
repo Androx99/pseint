@@ -7,11 +7,12 @@ Algoritmo Suma5
 	//Iniciar variables
 	cantidad = 10; //Nº veces que se repite bucle
 	suma = 0; //Donde se va ha sumar los numeros
+	//Parte Logica Programa
 	Mientras cantidad <> 0
 		Escribir "Introduce un numero"Sin Saltar; //Entrada
 		Leer n_user; //Salida
 		suma= suma + n_user; //Suma numeros
 		cantidad = cantidad - 1; // Restar la cantidad que queda de numeros por introducir
 	FinMientras
-	Escribir "La suma total es: " suma;
+	Escribir "La suma total es: " suma; //Mostrar al usuario el resultado total
 FinAlgoritmo
