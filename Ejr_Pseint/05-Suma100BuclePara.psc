@@ -7,8 +7,8 @@ Algoritmo Suma100BuclePara
 	//Iniciar Variables
 	suma = 0;
 	//Parte Logica
-	Para n_sumas = 0 Hasta 100 Con Paso 1 Hacer
-		suma = suma + AZAR(101);
+	Para n_sumas = 0 Hasta 100 Con Paso 1 Hacer //Repetir 100 veces
+		suma = suma + AZAR(101); //Sumar 1 numero al azar 1-100
 	Fin Para
-	Escribir "El resultado es: " suma;
+	Escribir "El resultado es: " suma; //Mostrar resultado al usuario
 FinAlgoritmo
