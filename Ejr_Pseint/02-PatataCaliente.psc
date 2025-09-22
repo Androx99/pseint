@@ -12,12 +12,10 @@ Algoritmo PatataCaliente
 		correcto = Falso;
 		Definir intentos Como Entero; //Numero de intentos Usuario
 		intentos = 5;
-		Definir i Como Entero; //Contar intetos usuario
-		i = 0;
 	//01) Entradas de datos
-		Escribir "Bienvenido al juego de la patata caliente, tienes ";
+		Escribir "Bienvenido al juego de la patata caliente";
 		Escribir "Responde la siguiente pregunta: " + pregunta;
-		Mientras correcto = falso y i < intentos
+		Mientras correcto = falso y intentos <> 0
 			Escribir "Porfavor introduzca la respuesta: " Sin Saltar;
 			Leer fecha_user;
 		//02) Logica del juego
@@ -31,6 +29,6 @@ Algoritmo PatataCaliente
 					correcto = Verdadero; 
 				FinSi
 			FinSi
-			i = i + 1 ; 
+			intentos = intentos - 1 ; 
 		FinMientras;
 FinAlgoritmo
